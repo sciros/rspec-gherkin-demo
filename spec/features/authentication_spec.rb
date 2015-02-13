@@ -1,4 +1,5 @@
 require_relative '../../spec/spec_helper'
+require_relative 'pages/login'
 
 feature 'basic authentication' do
   scenario 'log in with valid credentials' do
