@@ -3,7 +3,7 @@ class Login
 
   page_url('http://localhost:8080/movietix/login')
 
-  text_field(:username, :id => 'username')
+  text_field(:username, :id => 'ussername')
   text_field(:password, :id => 'password')
   button(:log_in, :name => 'commit')
 
